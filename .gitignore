@@ -1,0 +1,7 @@
+.env
+.env.*
+*.token
+token.txt
+*.local.json
+.mcpregistry_*
+.DS_Store

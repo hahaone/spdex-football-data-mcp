@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.hahaone/football-data",
+  "title": "SPdex足球资料MCP",
+  "description": "Football fixtures, historical scores, team/venue profiles, archived squads and availability reports.",
+  "version": "1.0.2",
+  "websiteUrl": "https://github.com/hahaone/spdex-football-data-mcp",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://football-mcp.spdex.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "value": "Bearer {token}",
+          "variables": {
+            "token": {
+              "description": "Your individual SPdex Football Data MCP token; see the website for access requests.",
+              "isRequired": true,
+              "isSecret": true
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

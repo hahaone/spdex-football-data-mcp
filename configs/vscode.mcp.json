@@ -1,0 +1,19 @@
+{
+  "inputs": [
+    {
+      "id": "spdex-football-token",
+      "type": "promptString",
+      "description": "SPdex足球资料MCP Token",
+      "password": true
+    }
+  ],
+  "servers": {
+    "spdex-football-data": {
+      "type": "http",
+      "url": "https://football-mcp.spdex.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${input:spdex-football-token}"
+      }
+    }
+  }
+}
