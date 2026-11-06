@@ -1,29 +1,34 @@
-# Token 申请与接入 / Access
+# 足球资料 MCP 接入 / Access
 
-通过 [SPdex 联系支持](https://help.spdex.com/support)（QQ：2735629769）私聊，注明“SPdex足球资料MCP 申请”。提供客户端名称、用途和预计每日调用量；联系方式使用当前 QQ，邮箱可选。
+1. 登录 [SPdex 足球资料 MCP](https://new.spdex.com/account/football-mcp)，阅读条款并领取专用 Token。
+2. 在同一页面复制客户端配置。VS Code 使用密码输入框；其他客户端按页面说明填写 Token。
+3. 启用连接后，应发现 10 个只读工具。调用 `get_data_coverage` 检查资料范围。
 
-获准后，通过同一私聊领取个人 Token、发放编号和到期时间。申请时需确认[使用条款](terms.md)和[隐私说明](privacy.md)。名额已满时可选择等候或删除申请。请勿在公开 Issue、截图或工单中提交 Token。
+**足球资料专用 Token 与主站“AI 与 MCP 连接”生成的业务 Token 不通用。** Agensi Skill 保持免费，安装 Skill 不会自动开通服务，也不包含共享 Token。
 
-| 项目 | 首发政策 |
+| 项目 | 免费预览 |
 | --- | --- |
-| 费用 | 免费，无自动收费 |
-| 名额 | 首批 20 个有效用户身份，人工批准 |
-| 频率 | 每身份每分钟 60 次请求，多客户端共享；无固定每日额度 |
-| 有效期 | 签发起 30 天，交付时注明 UTC 到期时间 |
-| 续期与停用 | 联系原申请渠道，提供发放编号；续期换发 Token 并撤销旧凭据，不自动续期 |
+| 费用 | 免费，不扣业务 MCP 用量，不自动收费 |
+| 名额 | 20 个有效用户账户，每账户一枚有效 Token |
+| 频率 | 每账户每分钟 60 次请求，多客户端共享 |
+| 有效期 | 领取起 30 天，页面显示到期时间 |
+| 换发与撤销 | 在开通页面操作；换发立即使旧 Token 失效，不自动续期 |
 
-连接方式见仓库首页。泄露或需要停用时，请联系原渠道撤销凭据。未来如调整收费，另行告知并由用户选择。
+Token 明文只展示一次，请直接保存到自己的客户端；丢失时换发。不要放入 AI 对话、公开 Issue、截图或代码仓库。原人工领取的有效 Token 可继续使用至到期或撤销。
 
-## 连接问题
+- **401**：确认使用足球资料专用 Token，检查有效期；换发后更新客户端并重新连接。
+- **429**：请求过于频繁，稍后重试。
+- **503**：服务暂时不可用，稍后重试，不要反复换发。
+- **OAuth/client ID 提示**：本服务使用 Bearer Token，取消提示并检查客户端配置。
 
-- **401**：检查 Token 是否缺失、到期或撤销，联系支持更换。
-- **429**：已达到频率限制，稍后重试。
-- **VS Code 弹出 OAuth/client ID 提示**：本服务采用 Bearer Token；取消提示，更新 Token 后重启 MCP 连接。
+[使用条款](terms.md) · [隐私说明](privacy.md) · [联系支持](https://help.spdex.com/support)
 
 ## English
 
-Request access privately through [SPdex support](https://help.spdex.com/support), QQ 2735629769. Provide your client, intended use and expected daily volume; email is optional. Read the [terms](terms.md) and [privacy notice](privacy.md). Approved users receive a token, issuance reference and UTC expiry in the same private conversation. If full, you may join the waiting list or have your application deleted.
+Sign in to the [SPdex Football Data MCP page](https://new.spdex.com/account/football-mcp), accept the terms and generate a dedicated token. Copy the client configuration from that page, then call `get_data_coverage` to verify access to the ten read-only tools.
 
-Free preview: 20 active users, 60 requests per minute per identity shared across clients, no fixed daily quota or automatic charges. Tokens last 30 days from issuance. Contact support with the issuance reference for renewal or revocation; renewal replaces the old token. Future charges require a separate choice. Do not post tokens in public issues, screenshots or support tickets.
+**Business MCP tokens generated under “AI and MCP connections” do not work with Football Data MCP.** The Agensi skill remains free; using it does not grant service access or provide a shared token.
 
-For 401, check or replace the token; for 429, retry later. If VS Code shows an OAuth/client-ID prompt, cancel it, update the bearer token and restart the MCP connection.
+Free preview: 20 active user accounts, one active token per account, 60 requests per minute shared across clients, valid for 30 days. No business MCP credits are deducted and there is no automatic charge or renewal. Rotate or revoke the token on the same page; rotation immediately invalidates the old token. Existing manually issued tokens remain valid until expiry or revocation.
+
+The token is shown once. Save it in your client, never in chat, public issues, screenshots or source control. For 401, check the token type and expiry; for 429 or 503, retry later. Cancel OAuth/client-ID prompts and use Bearer authentication. See the [terms](terms.md), [privacy notice](privacy.md) or [support](https://help.spdex.com/support).

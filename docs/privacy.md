@@ -4,7 +4,7 @@
 
 ## 信息与用途
 
-申请信息包括联系 QQ、可选邮箱、用途、客户端和预计调用量，用于管理接入和提供支持。调用时处理身份凭证、有效期及查询参数，用于认证和返回资料；不要求上传整段聊天或本地文件。
+自助开通使用 SPdex 账户标识、条款同意记录及凭据有效期管理访问，不保存 Token 明文。人工支持可能收集联系 QQ、可选邮箱、用途、客户端和预计调用量。调用时处理身份凭证、有效期及查询参数，用于认证和返回资料；不要求上传整段聊天或本地文件。
 
 访问记录可能包含 IP、时间、请求方法、路径及查询串、状态码、流量、耗时和客户端信息，用于安全防护及故障排查，不记录认证头或请求体。记录仅限获授权人员和服务访问。请勿在查询参数中填写凭据或无关个人信息。
 
@@ -32,7 +32,7 @@
 
 Effective on first public publication. Provider: 北京枫诚创业科技有限公司 (SPdex). Contact [SPdex support](https://help.spdex.com/support), QQ 2735629769.
 
-We use QQ contact details, optional email, intended use, client and expected volume to manage access and support. Calls process credentials, expiry and query parameters. Full conversations and local files are not requested. Security and diagnostic logs may contain IP, time, method, path/query string, status, traffic, duration and client information, but exclude authentication headers and request bodies. Access is restricted to authorized staff and services. Do not include credentials or unrelated personal information in queries.
+Self-service access uses your SPdex account identifier, consent record and credential expiry. Plaintext tokens are not stored. Manual support may collect QQ contact details, optional email, intended use, client and expected volume. Calls process credentials, expiry and query parameters. Full conversations and local files are not requested. Security and diagnostic logs may contain IP, time, method, path/query string, status, traffic, duration and client information, but exclude authentication headers and request bodies. Access is restricted to authorized staff and services. Do not include credentials or unrelated personal information in queries.
 
 The endpoint and access logs are in mainland China. Some queries are processed in the UK using necessary parameters; customer tokens, application contacts and full conversations are not forwarded. Clients and model providers apply their own privacy policies.
 

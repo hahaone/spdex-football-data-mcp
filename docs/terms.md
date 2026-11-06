@@ -8,7 +8,7 @@
 
 资料可能缺失、陈旧或修订。引用结果时请保留来源、时间及相关提示，不将存档阵容或伤停报告视为当前状态，不推断未知的比分口径。错误可通过支持渠道反馈。
 
-Token 仅供获准用户使用，不得公开分享或绕过访问限制；泄露时请联系支持撤销。维护或上游故障可能中断服务，不承诺可用性 SLA。
+Token 仅供本人使用，不得公开分享或绕过访问限制；可在开通页面换发或撤销，原人工凭据可联系支持处理。维护或上游故障可能中断服务，不承诺可用性 SLA。
 
 公开文档和配置适用 MIT 许可。该许可不适用于工具返回的第三方数据；数据使用应遵守适用法律及来源条款。
 
@@ -24,6 +24,6 @@ Effective on first public publication and presented for acceptance when requesti
 
 The service provides ten read-only football data tools with a free preview. Limits, token validity and renewal are in the [access instructions](access.md); access does not automatically become paid. Records may be missing, stale or revised. Preserve sources, timestamps and relevant notes; do not treat archived squads or availability reports as current, or infer an unspecified scoring basis.
 
-Tokens are personal. Do not share them publicly or bypass access controls; report leaks for revocation. Maintenance and upstream faults may interrupt access; no availability SLA is offered. MIT covers public documentation and configuration, not returned third-party data. Data use is subject to applicable law and source terms.
+Tokens are personal. Do not share them publicly or bypass access controls. Rotate or revoke self-service tokens on the access page; contact support about manually issued tokens. Maintenance and upstream faults may interrupt access; no availability SLA is offered. MIT covers public documentation and configuration, not returned third-party data. Data use is subject to applicable law and source terms.
 
 Users may leave without a fee. Access may be suspended for credential leaks, misuse, changes to source permissions or faults. Planned termination or material policy changes normally receive seven days' notice; urgent safety or rights issues may require suspension before notice. See the [privacy notice](privacy.md) for personal information handling. Contact support about disputes; unresolved matters are handled under applicable law. Statutory rights and liabilities are preserved.

@@ -6,7 +6,7 @@
 
 ## 接入
 
-1. 通过 [SPdex 联系支持](https://help.spdex.com/support)（QQ：2735629769）申请个人 Token。
+1. 登录 [足球资料 MCP 开通页](https://new.spdex.com/account/football-mcp)，领取专用 Token 和客户端配置。主站业务 MCP Token 不适用。
 2. 配置服务地址 `https://football-mcp.spdex.com/mcp`，传输方式 **Streamable HTTP**，认证头 `Authorization: Bearer <你的 Token>`。
 3. VS Code 用户可合入 [配置文件](configs/vscode.mcp.json)，通过密码框输入 Token。请保留已有配置，不要公开凭据。
 

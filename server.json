@@ -3,7 +3,7 @@
   "name": "io.github.hahaone/football-data",
   "title": "SPdex足球资料MCP",
   "description": "Football fixtures, historical scores, team/venue profiles, archived squads and availability reports.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "websiteUrl": "https://github.com/hahaone/spdex-football-data-mcp",
   "remotes": [
     {

@@ -6,7 +6,7 @@ Query football fixtures, historical scores, teams, venues, archived squads and a
 
 ## Connect
 
-1. Request an individual token through [SPdex support](https://help.spdex.com/support), QQ 2735629769.
+1. Sign in to the [Football Data MCP page](https://new.spdex.com/account/football-mcp) to get a dedicated token and client configuration. Business MCP tokens are not accepted.
 2. Use endpoint `https://football-mcp.spdex.com/mcp`, transport **Streamable HTTP**, and header `Authorization: Bearer <your token>`.
 3. In VS Code, merge [this configuration](configs/vscode.mcp.json) and enter the token through the password input. Keep existing server settings and do not publish credentials.
 
